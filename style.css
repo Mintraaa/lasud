@@ -1,0 +1,72 @@
+/*----*/
+.category{
+    width: 100%;
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: center;
+}
+
+.category .list-items{
+    width: 90%;
+    position: relative;
+    margin-top: 100px;
+}
+.category .list-items h3{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-bottom: 100px;
+}
+
+.category .list-items .card-list{
+    display: grid;
+    grid-template-columns: repeat(4m 1fr);
+}
+
+.category .card-list .card{
+    width: 200px;
+    height: auto;
+    display: block;
+    padding: 10px;
+    position: relative;
+    background: #ffffff;
+    outline: 2px solid #faad96;
+    border-radius: 10px;
+}
+.category .card-list .card img{
+    width: 100px;
+    height: auto;
+    bottom: 140px;
+    left: 50px;
+    object-fit: cover;
+    object-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    box-shadow: 0 20px 20px #faad96;
+    border-radius: 50%;
+}
+.category .card-list .card .food-title{
+    padding: 40px 0 10px;
+}
+.category .card-list .card .food-title h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.category .card .desc-food p{
+    font-size: 13px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+.category .card .price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} /*ส่วนนี้ยังใช้ไม่ได้เพราะ ไอคอนรูป+ยังไม่มา เพราะยังไม่ได้ใส่ลิงก์*/
+
+
+
